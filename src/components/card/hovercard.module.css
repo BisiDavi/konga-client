@@ -1,0 +1,70 @@
+.Hovercard {
+  width: 100%;
+  position: relative;
+}
+
+.Product_name {
+  position: absolute;
+  bottom: 10%;
+  color: white;
+  left: 0;
+  width: 100%;
+}
+
+.Hovercard h3 {
+  text-align: center;
+  font-size: 14px;
+}
+
+.Showonhover {
+  background: white;
+  height: 195px;
+}
+
+.Header {
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+  height: 80px;
+}
+
+.Header h4 {
+  color: black;
+}
+
+.body {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.body li {
+  list-style: none;
+  margin: 2px 0 2px 15px;
+  padding: 5px;
+}
+.body li:hover {
+  background: #f2f2f2;
+}
+
+.body li {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .body {
+    display: none;
+  }
+
+  .Header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Showonhover {
+    height: 50px;
+    background-color: white;
+  }
+
+  .ProductImg {
+    display: none;
+  }
+}

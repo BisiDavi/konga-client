@@ -1,0 +1,106 @@
+.Footer {
+  background-color: #0c0c0c;
+  color: white;
+  display: flex;
+  max-height: 80%;
+  padding: 1.5625rem 0rem;
+}
+
+.Footer div {
+  margin: 0px 30px;
+}
+
+.FooterLink {
+  list-style: none;
+  color: #b5b5b5;
+  display: initial;
+}
+
+.FooterLink li {
+  text-align: left;
+}
+
+.FooterLink a {
+  color: #b5b5b5;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.FooterLink a:hover {
+  color: white;
+}
+
+.LinkHeader {
+  color: #b5b5b5;
+  font-size: 15px;
+  margin-bottom: -10px;
+  text-align: left;
+}
+
+.LinkHeader:hover {
+  color: white;
+}
+
+.Support {
+  display: flex;
+  justify-content: space-between;
+  background: #2e2e2e;
+  padding: 10px 20px;
+  height: 60px;
+  color: #b5b5b5;
+  font-size: 0.875rem;
+}
+
+.Support div:nth-child(2) {
+  margin-right: 130px;
+}
+
+.Support h3 {
+  text-align: left;
+  margin: 10px 0 !important;
+}
+
+.Support p {
+  text-align: left;
+  margin: 10px 0 !important;
+}
+
+.Support form {
+  width: 30%;
+  align-items: center;
+  display: flex;
+}
+
+.Support input {
+  background-color: #fff;
+  border: none;
+  border-radius: 0.1875rem 0 0 0.1875rem;
+  font-size: 0.875rem;
+  max-height: 2.8125rem;
+  height: 43px;
+  outline: none;
+  padding-left: 0.625rem;
+  width: 70%;
+}
+
+.Support button {
+  background-color: #ed017f;
+  border: none;
+  border-radius: 0 0.1875rem 0.1875rem 0;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 2.8125rem;
+  text-align: center;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .Footer {
+    display: none;
+  }
+  .Support {
+    flex-direction: column;
+    height: 200px;
+  }
+}

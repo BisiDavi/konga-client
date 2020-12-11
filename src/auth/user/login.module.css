@@ -1,0 +1,70 @@
+.LoginPage {
+  background: #f8f8f8;
+  height: 100vh;
+}
+
+.Login {
+  width: 40%;
+  margin: auto;
+  height: 50vh;
+  background: #fff !important;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.Login button {
+  margin: auto;
+  width: 74vh;
+  margin-top: 20px;
+}
+
+.Loginform {
+  display: grid;
+  width: 100%;
+  margin: auto;
+}
+
+.Loginform div {
+  padding: 5px 30px;
+  height: 40px;
+}
+
+.Loginform div label {
+  text-align: center;
+  margin: 0 50px;
+  color: red;
+}
+
+.showPasswordIcon {
+  position: absolute !important;
+  right: 0px;
+  width: 40px !important;
+  margin-top: 0px !important;
+}
+
+.CreateAccount {
+  background: #f8f8f8 !important;
+  width: 40%;
+  margin: auto;
+  margin-top: -15px;
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+
+.CreateAccount button {
+  margin-bottom: 20px;
+}
+
+.CreateAccount a {
+  text-decoration: none;
+}
+
+.CreateAccount p {
+  color: green;
+  text-align: center;
+}
+
+.CreateAccount div {
+  margin: auto !important;
+  width: 74vh;
+}

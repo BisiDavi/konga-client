@@ -1,0 +1,18 @@
+.menu {
+  padding: 40px !important;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) !important;
+  grid-template-rows: repeat(2, 260px) !important;
+  z-index: 1000 !important;
+  position: absolute !important;
+  background: white;
+  top: 185px !important;
+  width: 93vw !important;
+  height: 70vh !important;
+}
+
+.menu li {
+  list-style: none !important;
+  text-align: left !important;
+  padding: 3px 0px !important;
+}

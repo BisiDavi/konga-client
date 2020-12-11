@@ -1,0 +1,65 @@
+.ShowcaseCard {
+  width: 400px;
+  margin: 10px;
+  position: relative;
+  height: 21rem;
+  cursor: pointer;
+  padding: 0.9375rem;
+  position: relative;
+  width: 100%;
+}
+
+.ShowcaseCard h3 {
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+.percentage {
+  background-color: #ff3b3b;
+  color: white;
+  border-bottom-right-radius: 4.0625rem;
+  border-top-right-radius: 4.0625rem;
+  display: inline-block;
+  font-size: 0.625rem;
+  font-weight: 600;
+  left: 0;
+  padding: 0.5rem 0.5rem 0.625rem;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0.625rem;
+  z-index: 9;
+}
+
+.price p {
+  color: green;
+  font-weight: 600;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.price h1 {
+  margin: 0px;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+.price h5 {
+  text-decoration: line-through;
+  margin: 4px 10px !important;
+  color: gray;
+}
+
+.ShowcaseCard:hover {
+  -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
+  transition: -webkit-box-shadow 0.4s ease-in-out;
+  -o-transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+  -webkit-box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.12),
+    0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.12),
+    0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.08);
+}
+

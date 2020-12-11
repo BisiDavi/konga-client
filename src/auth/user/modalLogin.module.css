@@ -1,0 +1,54 @@
+.Login {
+    display: grid;
+    position: absolute;
+    width:30%;
+    right:0;
+    height: 100%;
+}
+
+.Login button{
+    margin: auto;
+    width: 53vh;
+}
+
+.transparentView{
+    background: transparent;
+}
+
+.Loginform {
+    display: grid;
+    width: 100%;
+    margin: auto;
+}
+
+
+.Loginform div {
+    padding: 5px 30px;
+    height: 40px;
+}
+
+.Loginform div label{
+    text-align: center;
+    margin: 0 50px;
+    color: red;
+}
+
+.showPasswordIcon{
+    position: absolute !important;
+    right:0px;
+    width: 40px !important;
+}
+
+.CreateAccount a{
+    text-decoration: none;
+}
+
+.CreateAccount p{
+    color: green;
+    text-align: center;
+}
+
+.CreateAccount div{
+    margin: auto !important;
+    width: 53vh;
+}

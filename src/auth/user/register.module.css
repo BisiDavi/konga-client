@@ -1,0 +1,67 @@
+.Register {
+    display: flow-root;
+    background: #f2f2f2 !important;
+    height: 100vh;
+}
+
+.Form{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.Paper {
+    background:#fff !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.RegisterForm {
+    display: grid;
+    margin: 0px 40px;
+}
+
+.RegisterForm button{
+    margin: 5px auto;
+}
+
+.logo{
+    margin:10px 0;
+}
+
+.RegisterForm div {
+    height: 40px;
+    padding: 5px;
+}
+
+.RegisterForm p{
+    color: red;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+}
+.RegisterForm button{
+    width: 45vh;
+}
+
+.Login{
+    background: #f8f8f8 !important;
+    border-top-right-radius: 0px !important;
+    margin-top: -15px;
+    border-top-left-radius: 0px !important;
+}
+
+.Login p{
+    text-align: center;
+}
+
+.Login button{
+    width: 45vh;
+    margin-bottom: 20px;
+}
+                        
+.showPasswordIcon{
+    position: absolute !important;
+    right: 0;
+    width: 80px !important;
+}
+

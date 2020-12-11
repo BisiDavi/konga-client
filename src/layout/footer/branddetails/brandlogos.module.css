@@ -1,0 +1,29 @@
+.Brandlogo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 20rem;
+  margin: 20px 20px 30px 20px;
+}
+
+.Brandlogo div {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .Brandlogo div {
+    padding: 10px;
+  }
+  .Brandlogo {
+    height: 10rem;
+  }
+  .Brandlogo img {
+    height: 30px !important;
+    width: 30px !important;
+  }
+}

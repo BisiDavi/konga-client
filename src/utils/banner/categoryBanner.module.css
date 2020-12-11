@@ -1,0 +1,18 @@
+.CategoryBanner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+    grid-gap:20px;
+}
+.Details{
+    text-align: left;
+    margin: 20px;
+}
+
+
+@media(max-width:768px){
+  .CategoryBanner{
+    display: flex;
+    overflow-x:scroll;
+  }
+}

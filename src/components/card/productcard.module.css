@@ -1,0 +1,68 @@
+.productCard {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.05);
+  border-radius: 0.3125rem;
+  margin: 10px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  height: 130px;
+  -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
+  transition: -webkit-box-shadow 0.4s ease-in-out;
+  -o-transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+}
+
+.pricedetails {
+  text-align: left;
+  margin-left: 20px !important;
+}
+
+.pricedetails h3 {
+  font-size: 15px !important;
+  font-weight: 490 !important;
+  margin: 0;
+}
+
+.pricedetails p {
+  margin: 0;
+}
+
+.pricedetails h6 {
+  color: green;
+  font-weight: 600;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price h4 {
+  margin: 0px;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+.price p {
+  text-decoration: line-through;
+  margin: 4px 10px !important;
+  color: gray;
+}
+
+.productCard:hover {
+  -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
+  transition: -webkit-box-shadow 0.4s ease-in-out;
+  -o-transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+  -webkit-box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.12),
+    0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.12),
+    0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.08);
+}

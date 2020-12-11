@@ -1,0 +1,14 @@
+{
+    [
+        "id":1,
+        "category": "Electronics",
+        "subcategory": "Televison",
+        "name": "Samsung 32 LED TV",
+        "brand": "Samsung",
+        "productcode": "4895697",
+        "price": 58000,
+        "formerprice": 72250,
+        "img":"",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nostrum eos necessitatibus quibusdam deserunt aspernatur culpa recusandae tenetur laborum error!"  
+    ]
+}

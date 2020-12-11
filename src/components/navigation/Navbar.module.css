@@ -1,0 +1,42 @@
+.Navbar {
+  background-color: #94004f;
+  display: flex;
+}
+
+.Navbar div {
+  height: 40px;
+  margin-top: -10px;
+}
+
+.Navbar li:hover {
+  background: white;
+  color: #94004f;
+}
+
+.Navbar ul {
+  display: flex;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.Navbar li {
+  list-style: none;
+  margin: 0px 15px;
+  height: 30px;
+  padding: 10px 0px;
+}
+
+.Navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar a:hover {
+  color: #94004f;
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    display: none;
+  }
+}

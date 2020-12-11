@@ -1,0 +1,19 @@
+.Card {
+  justify-content: center;
+    background: #fff;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.05);
+    height: 2rem !important;
+    margin-right: 0.9375rem;
+    padding: 0.8125rem 1.5625rem;
+    width: 17%;
+    width: calc(16.66667% - 0.9375rem);
+}
+
+.Card:last-child {
+  margin-right: 0 !important;
+}

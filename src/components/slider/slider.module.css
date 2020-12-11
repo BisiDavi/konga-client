@@ -1,0 +1,23 @@
+.Carousel {
+  width: 100%;
+}
+
+.Carousel img {
+  cursor: pointer;
+  border-radius: 10px;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .Carousel {
+    height: 250px !important;
+    width: 100%;
+    margin: 10px;
+  }
+
+  .Carousel img {
+    cursor: pointer;
+    border-radius: 10px;
+    height: 250px;
+  }
+}

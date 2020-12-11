@@ -1,0 +1,22 @@
+.KongaCategory {
+  width: 100%;
+  background: #f6f6f6;
+  margin-top: -4px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.Category {
+  padding: 10px 25px;
+}
+
+@media (max-width: 768px) {
+  .KongaCategory {
+    height: 100% !important;
+    width: 95% !important;
+  }
+  .KongaCategory div {
+    display: none;
+  }
+}

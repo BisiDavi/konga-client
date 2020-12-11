@@ -1,0 +1,28 @@
+.bestSelling {
+  margin: 10px 20px;
+  background: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 450px;
+}
+
+.Title {
+  background: #4a4a4a
+    url("https://res.cloudinary.com/verrb-inc/image/upload/v1599181134/konga/category_icons_hixtom.png")
+    no-repeat;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.Title h1 {
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+.bestSelling img {
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px 0px 10px;
+}

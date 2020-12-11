@@ -1,0 +1,30 @@
+.LatestDeals {
+  background: white;
+  margin: 20px;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.05);
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+.LatestDeals .header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.LatestDeals hr {
+  background: gray;
+}
+
+.dealcards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
+}
+
+@media(max-width:768px){
+  .dealcards{
+    display: flex;
+    overflow-x:scroll;
+  }
+}

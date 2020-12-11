@@ -1,0 +1,10 @@
+.cardtags {
+  display: flex;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .cardtags {
+    display: none;
+  }
+}

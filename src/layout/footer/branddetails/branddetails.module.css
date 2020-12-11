@@ -1,0 +1,30 @@
+.Branddetails{
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.info{
+    font-size: .875rem;
+    letter-spacing: .00625rem;
+    line-height: 1.4375rem;
+    width: auto;
+}
+
+.Branddetails div{
+    text-align:left;
+}
+
+.Details h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 5px;
+    line-height: 1.5rem;
+}
+
+
+
+@media(max-width:768px){
+  .Branddetails{
+    display: none;
+  }
+}

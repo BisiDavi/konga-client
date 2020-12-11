@@ -1,0 +1,32 @@
+.Category {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  margin: 0 20px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  padding: 10px;
+}
+
+.Title {
+  margin: 0 20px;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background: #4a4a4a
+    url("https://res.cloudinary.com/verrb-inc/image/upload/v1599181134/konga/category_icons_hixtom.png")
+    no-repeat;
+}
+
+.Title h1 {
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .Category {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,29 @@
+.Section1 {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  padding: 1.25rem;
+  background-color: #f2f2f2;
+  grid-gap: 10px;
+}
+
+.OtherSection {
+  background: #f2f2f2;
+  padding: 1px;
+  margin: -20px 0px;
+}
+
+@media (max-width: 768px) {
+  .Section1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .OtherSection .promobanner {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .Mobilemenu {
+    display: none;
+  }
+}
