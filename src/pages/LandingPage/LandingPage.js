@@ -1,6 +1,4 @@
-import React from "react";
-// import axios from "axios";
-
+import React from 'react';
 import {
   Layout,
   Slider,
@@ -19,9 +17,9 @@ import {
   // SponsoredProducts,
   BestSellingProducts,
   MobileMenu
-} from "../../imports";
+} from '../../imports';
 
-import classes from "./LandingPage.module.css";
+import classes from './LandingPage.module.css';
 
 const LandingPage = () => {
   return (
@@ -60,5 +58,4 @@ const LandingPage = () => {
     </Layout>
   );
 };
-
 export default LandingPage;

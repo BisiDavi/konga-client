@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import clsx from "clsx";
 import { Router, Route, Switch } from "react-router-dom";
 import {
@@ -117,7 +117,8 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function MainDashboard() {
+const MainDashboard = () => {
+  
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
   const handleDrawerOpen = () => {
@@ -198,3 +199,5 @@ export default function MainDashboard() {
     </Router>
   );
 }
+
+export default MainDashboard;

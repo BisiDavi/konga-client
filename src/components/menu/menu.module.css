@@ -16,3 +16,9 @@
   text-align: left !important;
   padding: 3px 0px !important;
 }
+
+@media (max-width: 768px) {
+  .menu {
+    display: none !important;
+  }
+}

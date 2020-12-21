@@ -1,5 +1,5 @@
-import * as actiontypes from "./actiontypes";
-import * as api from "../api";
+import * as actiontypes from './actiontypes';
+import * as api from '../api';
 
 const AsyncFetchtask = products => {
   return {

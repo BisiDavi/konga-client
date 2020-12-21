@@ -32,9 +32,12 @@ const Footer = () => {
   const footerForm = () => (
     <section className={classes.Support}>
       {support.map(item => (
-        <div key={item.title}>
-          <div className="icon">{item.icon}</div>
-          <div className="info">
+        <div 
+        className={classes.footermenuLink}
+         key={item.title}
+         >
+          <div className={classes.icon}>{item.icon}</div>
+          <div className={classes.info}>
             <h3>{item.title}</h3>
             <p>{item.description}</p>
           </div>

@@ -95,6 +95,28 @@
   width: 30%;
 }
 
+@media (max-width:480px){
+  .footermenuLink{
+    display: flex;
+    align-items: center !important;
+  }
+  .footermenuLink .icon{
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    height: 50px;
+  }
+
+  .footermenuLink .icon i {
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .footermenuLink .info h3{
+    font-size: 1em;
+  }
+}
+
 @media (max-width: 768px) {
   .Footer {
     display: none;

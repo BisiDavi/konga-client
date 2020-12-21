@@ -9,6 +9,8 @@
 
 .Category {
   padding: 10px 25px;
+  height: 45px;
+  width: 130px;
 }
 
 @media (max-width: 768px) {

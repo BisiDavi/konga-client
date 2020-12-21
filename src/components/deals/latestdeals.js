@@ -12,7 +12,7 @@ const LatestDeals = props => {
   const { dispatch } = props;
   useEffect(() => {
     dispatch(FetchProducts());
-  }, []);
+  });
 
   console.log("PRODUCT", props.product);
 

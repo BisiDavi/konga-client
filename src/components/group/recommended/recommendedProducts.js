@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import { connect, useDispatch } from "react-redux";
-import { FetchProducts } from "../../../store/actions/productActions";
-import { ProductCard } from "../../../imports";
-import classes from "./recommendedProducts.module.css";
+import React, { useEffect } from 'react';
+import { connect, useDispatch } from 'react-redux';
+import { FetchProducts } from '../../../store/actions/productActions';
+import { ProductCard } from '../../../imports';
+import classes from './recommendedProducts.module.css';
 
 const RecommendedProducts = props => {
   const products = [];
@@ -10,16 +10,15 @@ const RecommendedProducts = props => {
   let sixRecommendedProducts = [];
 
   const dispatch = useDispatch();
-
   useEffect(() => {
     dispatch(FetchProducts());
-  }, [dispatch]);
+  });
 
   const getRecommendedProducts = () => {
     props.product.map(product => product.map(item => products.push(item)));
-    
+
     return products.forEach(item => {
-      if (item.tag.includes("Recommended Products")) {
+      if (item.tag.includes('Recommended Products')) {
         recommendedProductData.push(item);
         sixRecommendedProducts = [...recommendedProductData.slice(0, 6)];
         return sixRecommendedProducts;

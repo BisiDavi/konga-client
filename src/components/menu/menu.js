@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./menu.module.css";
-// import { Link } from "react-router-dom";
 import { computersMenu } from "./list/categoryList";
 
 export const showMenu = categories => (

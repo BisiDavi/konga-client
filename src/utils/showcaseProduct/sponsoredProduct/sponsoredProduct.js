@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import { connect, useDispatch } from "react-redux";
-import { FetchProducts } from "../../../store/actions/productActions";
-import { ShowcaseCard } from "../../../imports";
+import React, { useEffect } from 'react';
+import { connect, useDispatch } from 'react-redux';
+import { FetchProducts } from '../../../store/actions/productActions';
+import { ShowcaseCard } from '../../../imports';
 
-import classes from "./sponsoredProduct.module.css";
+import classes from './sponsoredProduct.module.css';
 
 const SponsoredProducts = props => {
   const products = [];
@@ -13,13 +13,14 @@ const SponsoredProducts = props => {
 
   useEffect(() => {
     dispatch(FetchProducts());
-  }, [dispatch]);
+  });
+
 
   const getSponsoredProducts = () => {
     props.product.map(product => product.map(item => products.push(item)));
 
     return products.forEach(item => {
-      if (item.tag.includes("latest deals")) {
+      if (item.tag.includes('latest deals')) {
         return productData.push(item);
       }
     });
@@ -55,4 +56,8 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(mapStateToProps)(SponsoredProducts);
+const mapDispatchToProps = dispatch => ({
+  onFetchProducts: () => dispatch(FetchProducts())
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(SponsoredProducts);

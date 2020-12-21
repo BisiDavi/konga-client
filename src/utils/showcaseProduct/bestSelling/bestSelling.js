@@ -1,15 +1,16 @@
-import React, { useEffect } from "react";
-import { connect, useDispatch } from "react-redux";
-import HorizontalScroller from "react-horizontal-scroll-container";
-import { ShowcaseCard } from "../../../imports";
-import classes from "./bestSelling.module.css";
-import { FetchProducts } from "../../../store/actions/productActions";
+import React, { useEffect } from 'react';
+import { connect, useDispatch } from 'react-redux';
+import HorizontalScroller from 'react-horizontal-scroll-container';
+import { ShowcaseCard } from '../../../imports';
+import classes from './bestSelling.module.css';
+import { FetchProducts } from '../../../store/actions/productActions';
 
 const BestSellingProducts = props => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(FetchProducts());
-  }, [dispatch]);
+  });
+
   let products = [];
   let bestSellingProductArray = [];
   let getSixBestSellingProduct = [];
@@ -19,7 +20,7 @@ const BestSellingProducts = props => {
       product.map(item => products.push(item))
     );
     return products.forEach(item => {
-      if (item.tag.includes("Best Selling")) {
+      if (item.tag.includes('Best Selling')) {
         bestSellingProductArray.push(item);
         getSixBestSellingProduct = [...bestSellingProductArray.slice(0, 6)];
         return getSixBestSellingProduct;
