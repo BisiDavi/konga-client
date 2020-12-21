@@ -87,13 +87,14 @@ export { default as SponsoredProducts } from "../utils/showcaseProduct/sponsored
 export { default as CounterReducer } from "../store/reducers/counterReducer";
 export { default as ProductReducer } from "../store/reducers/productReducer";
 
-/* svg img */
+/* svg, png img */
 export { default as shopIcon } from "../assets/shop.svg";
 export { default as shirtIcon } from "../assets/shirt.svg";
 export { default as phoneIcon } from "../assets/phone.svg";
 export { default as moreIcon } from "../assets/more.svg";
 export { default as desktopIcon } from "../assets/desktop.svg";
 export { default as pricetagIcon } from "../assets/pricetag.svg";
+export { default as arrowdownIcon } from "../assets/arrowdown.png";
 
 /* form */
 export { Inputform } from "../components/forms/forms";
